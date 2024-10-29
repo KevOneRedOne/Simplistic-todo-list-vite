@@ -1,9 +1,9 @@
 {
-  "name": "todo-list-avanc-react-kevoneredone",
+  "name": "simplistic-todo-list-vite",
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://github.com/zkerkeb-class/todo-list-avanc-react-KevOneRedOne",
+  "homepage": "https://github.com/KevOneRedOne/Simplistic-todo-list-vite",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
