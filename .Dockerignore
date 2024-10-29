@@ -1,0 +1,11 @@
+# Ignore the node_modules folder and the dist folder
+node_modules
+dist
+
+# Ignore the .env file
+.env
+
+# Ignore the configuration files
+.vscode
+.git
+.github
