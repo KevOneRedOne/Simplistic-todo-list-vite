@@ -14,7 +14,7 @@
     "prettier:fix": "prettier --write .",
     "lint:fix": "eslint --fix",
     "lint": "eslint .",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist --repo https://github.com/KevOneRedOne/Simplistic-todo-list-vite.git",
     "dev:cache": "vite --force",
     "type:check": "tsc --noEmit",
     "type:watch": "tsc --noEmit --watch"
