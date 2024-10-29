@@ -20,8 +20,8 @@ Ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/zkerkeb-class/todo-list-avanc-react-KevOneRedOne
-   cd todo-list-avanc-react-KevOneRedOne
+   git clone https://github.com/KevOneRedOne/Simplistic-todo-list-vite
+   cd Simplistic-todo-list-vite
    ```
 
 2. **Install dependencies:**
@@ -42,25 +42,37 @@ Ensure you have the following installed:
 
 - **`npm run dev`**: Start the development server.
 - **`npm run build`**: Build the application for production.
-- **`npm run serve`**: Preview the production build locally.
+- **`npm run predeploy`**: Build the application for production.
+- **`npm run deploy`**: Deploy the application to GitHub Pages.
+- **`npm run preview`**: Preview the production build locally.
+- **`npm run prepare`**: Install husky hooks.
 - **`npm run lint`**: Lint the project using ESLint.
-- **`npm run format`**: Format the project using Prettier.
+- **`npm run lint:fix`**: Lint the project using ESLint and fix issues.
+- **`npm run type:check`**: Type-check the project using TypeScript.
+- **`npm run type:check:watch`**: Type-check the project using TypeScript in
+  watch mode.
+- **`npm run prettier`**: Format the project using Prettier.
+- **`npm run prettier:fix`**: Format the project using Prettier and fix issues.
 
 ## Project Structure
 
 ```
-my-todo-app/
+Simplistic-todo-list-vite/
 ├── public/
+├── nginx/
 ├── src/
+    ├── assets/           # Images and other assets
 │   ├── components/       # React components
 │   ├── context/          # Context API setup
 │   ├── hooks/            # Custom hooks
-│   ├── styles/           # CSS styles
+│   ├── types/            # TypeScript types
 │   ├── TodoList.tsx           # Main application component
 │   ├── main.tsx          # Entry point
 │   └── ...
-├── .eslintrc.js          # ESLint configuration
+├── .eslintrc.cjs          # ESLint configuration
+├── .prettier.cjs          # Prettier configuration
 ├── tsconfig.json         # TypeScript configuration
+├── vite.config.ts        # Vite configuration
 └── package.json          # Project metadata and scripts
 ```
 
