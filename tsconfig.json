@@ -1,15 +1,7 @@
 {
-  "compilerOptions": {
-    "target": "ESNext", // or "ES6"
-    "module": "ESNext",
-    "jsx": "react-jsx", // or "react" if using React 17 or lower
-    "lib": ["DOM", "ESNext"], // Make sure to include DOM
-    "strict": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
-  },
-  "include": ["src"],
-  "exclude": ["node_modules", "**/*.spec.ts"]
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
 }
