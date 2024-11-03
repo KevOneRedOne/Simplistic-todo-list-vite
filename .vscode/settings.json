@@ -13,5 +13,9 @@
   "eslint.validate": ["javascript", "typescript", "typescriptreact"],
   "eslint.options": {
     "configFile": ".eslintrc.cjs"
-  }
+  },
+  "conventionalCommits.scopes": [
+    "test",
+    "settings"
+  ]
 }
